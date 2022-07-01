@@ -1,0 +1,16 @@
+.projects{
+    padding: 50px;
+}
+.projects-wrapper{
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    
+}
+@media screen and (max-width: 768px){
+
+    .projects-wrapper{
+      flex-wrap: wrap;
+    
+}
+}

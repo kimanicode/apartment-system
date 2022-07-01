@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #1f1632;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    width: 100%;
+    box-shadow: 1px 1px #4AAD52;
+    
+  }
+  .logo{
+    margin-left: 20px;
+  }
+  .nav{
+    margin-right:70px;
+    display:flex;
+    justify-content: space-between;
+    gap:20px;
+  }
+  .nav ul{
+    display: flex;
+    gap:20px;
+    
+  }
+  .btn button{
+    background-color: green;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: -15px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 800;
+
+
+  }
+  .btn button:hover{
+    background-color: #39375B;
+}
+  

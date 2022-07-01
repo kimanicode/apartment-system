@@ -1,0 +1,22 @@
+#regBtn{
+    background-color: transparent;
+    width: 250px;
+    color: green;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+#loginBtn{
+    margin-left: 50px;
+}
+#signer{
+    text-decoration: underline;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+h4{
+    color: red;
+    margin: 5px  ;
+    text-align: center;
+
+}
