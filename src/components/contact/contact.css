@@ -52,13 +52,32 @@
     background-color: #39375B;
 }
 @media screen and (max-width: 768px){
-    .inputs{
-        width: 200px;
-        
-    }
+    
     .contact{
         width: 100%;
+        background-color: aqua;
+    }
+    .inputs{
+        width: calc(100% - 70px);
+        background-color: #39375B;
+        margin: auto;
+        
+    }
+    .inputs button{
+        background-color: aqua;
+        color: black;
+    }
+    .in-4 input{
+        width: 100%;
+        
+    }
+    .in-4 textarea{
+        max-width: 40px;
+        width: 40px;
+        
+        
     }
    
+    
     
 }
