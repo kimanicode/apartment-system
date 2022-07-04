@@ -1,7 +1,13 @@
 import React from 'react'
 import './review.css'
+import {doc , setDoc} from 'firebase/firestore'
 
 function Review() {
+   const addReview = ()=>{
+    
+   }
+
+
   return (
     <div className='review'>
         <h1>Customer Review</h1>
@@ -21,7 +27,7 @@ function Review() {
              <div className='in-4'>
              <label>Customer Image  </label>
                  <textarea   placeholder='Enter your message'/> </div>
-             <button>Review</button>
+             <button onClick={addReview}>Review</button>
  
          </div>
     </div>

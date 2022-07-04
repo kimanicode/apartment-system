@@ -12,9 +12,7 @@ import Login from './components/login/Login';
 import Register from './components/Register/Register';
 import {useState} from 'react'
 import {auth} from './firebase-config'
-import {
-  onAuthStateChanged
-  } from 'firebase/auth'
+import Service from './components/services/Service';
   import { AuthProvider } from "./AuthProvider";
 
 
@@ -52,7 +50,7 @@ function App() {
        <Route path="/login" element={<Login />} /> 
       {/* <Route path = '/'  element={<RequireAuth><Banner/> <Projects /> <ReviewDisplay /> < Contact /></RequireAuth> } exact /> */}
       <Route path= '/' >
-      <Route path = '/'  element={<><Banner/> <Projects /> <ReviewDisplay /> < Contact /></> } exact />
+      <Route path = '/'  element={<><Banner/> <Projects /> <ReviewDisplay /><Service /> < Contact /></> } exact />
         
       </Route>
      

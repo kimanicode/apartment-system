@@ -40,7 +40,7 @@ const { currentUser } = useContext(AuthContext);
             <ul>
                 <li><Link to = '/' >Home</Link></li>
                 <li><Link to = '/review' >Review</Link></li>
-                <li><Link to  = '/admin'>Admin</Link></li>
+                {/* <li><Link to  = '/admin'>Admin</Link></li> */}
 
             </ul>
           {currentUser && <div>welcome:{currentUser.email} </div>}

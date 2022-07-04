@@ -1,0 +1,54 @@
+.sidebar{
+    background-color: grey;
+    flex:1;
+    height: 90vh;
+}
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.title h3{
+    color:aqua;
+    padding: 5px;
+    font-size: 19px;
+
+}
+.title hr{
+    width: 100%;
+}
+ .list li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    cursor: pointer;
+    
+ }
+ .list li span{
+    color: #B0C7BD;
+    font-size: 18px;
+    
+ }
+ .list icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+ }
+ .list p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #F71735;
+    font-size: 18px;
+    font-weight: bold;
+ }
+
+ li span ,li:hover{
+    color: #B0C7BD;
+
+ }

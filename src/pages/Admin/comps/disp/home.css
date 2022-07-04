@@ -1,0 +1,26 @@
+.home{
+    flex:6;
+    display: flex;
+}
+.graph-wrapper{
+    display: flex;
+    width: 100%;
+    }
+.widget-graph{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    flex-direction: column;
+}
+#info{
+    color:#F71735;
+    padding: 5px;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.cpb{
+    width: 50%;
+}

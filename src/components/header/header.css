@@ -41,4 +41,15 @@
   .btn button:hover{
     background-color: #39375B;
 }
-  
+@media screen and (max-width: 768px){
+
+  .navbar{
+    width: 100%;
+  }
+  .btn{
+    width: 30px;
+  }
+  .btn button{
+    width: 100%;
+  }
+}
