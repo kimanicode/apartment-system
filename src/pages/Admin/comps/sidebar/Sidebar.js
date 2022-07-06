@@ -16,7 +16,7 @@ function Sidebar() {
            
             <p><DashboardIcon className ='icons' /> Dashboard</p>
 
-            <li> < PersonOutlineIcon className ='icons' /><span>Users</span></li>
+            <li> < PersonOutlineIcon className ='icons' /><span>Contacts</span></li>
             <li>< PaidIcon className ='icons' /><span>Payments</span></li>
             <li>< ReviewsIcon className ='icons' /><span>Reviews</span></li>
             <li>< HouseIcon className ='icons' /><span>Properties</span></li>

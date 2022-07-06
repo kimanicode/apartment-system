@@ -13,7 +13,9 @@ import Register from './components/Register/Register';
 import {useState} from 'react'
 import {auth} from './firebase-config'
 import Service from './components/services/Service';
-  import { AuthProvider } from "./AuthProvider";
+import { AuthProvider } from "./AuthProvider";
+import Profile from './pages/profile/Profile';
+import Payments from './pages/payment/Payments';
 
 
 
@@ -58,7 +60,8 @@ function App() {
        <Route path = '/admin'  element={<><Admin/></> } />
       
        <Route path="/register" element={<Register />} />
-         
+       <Route path="/profile" element={<Profile />} />
+       <Route path="/payments" element={<Payments />} />
 
      
       </Routes>

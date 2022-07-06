@@ -10,7 +10,7 @@ function ReviewDisplay() {
         <Display 
         profileImg='p1.jpg'
 
-        name ='kimani karaba'
+        name ='Grace Wanjiku'
         company='jua group'
         description ='hello there this is  my platform. i am  seasoned software developer with over 3 years of experience in developing web and mobile applications'
         
@@ -18,17 +18,17 @@ function ReviewDisplay() {
          <Display 
         profileImg='p1.jpg'
 
-        name ='kimani karaba'
-        company='jua group'
-        description ='hello there this is my platform'
+        name ='mr john'
+        company='safaricom'
+        description ='excellent platform'
         
         />
          <Display 
         profileImg='p1.jpg'
 
         name ='kimani karaba'
-        company='jua group'
-        description ='hello there this is my platform'
+        company='Equity group'
+        description ='monor changes needed'
         
         />
       </div>

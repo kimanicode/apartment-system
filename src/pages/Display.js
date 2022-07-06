@@ -22,7 +22,7 @@ const Display = ({profileImg ,name,company ,description }) => {
 export default Display
 
 const Cover = styled.div`
-    background-color:white;
+    background-color:#F0F8EA;
     border:solid;
     border-width:2px;
     width:300px;
